@@ -172,7 +172,6 @@
   text-align: center;
   padding: 50px 20px 0px 20px;
   font-weight: bold;
-;
 }
 
 .price-main {
@@ -183,7 +182,6 @@
   font-size: 22px;
 }
 .price-mainLista {
-
   margin-top: 10px;
   font-family: "roboto";
   color: #0077f9;
@@ -527,27 +525,21 @@
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 50px;
-  margin-top: 150px;
+  margin-top: 125px;
   margin-bottom: 80px;
 }
 
 .homeImg {
   display: flex;
-  justify-content: space-evenly;
-  padding-right: 100px;
+  gap: 2rem;
   margin-top: 100px;
-  width: 780px;
+  width: 880px;
 }
 
 .homeImgParent {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 9px;
-}
-
-.imgBlockChain {
-  padding-left: 200px;
-  width: 1200px;
+  padding: 0 8.5rem;
+  gap: 4rem;
 }
 
 .itemCart {
@@ -1037,4 +1029,3 @@ button:hover .button-text {
 .carousel.slide {
   padding: 6rem;
 }
-
